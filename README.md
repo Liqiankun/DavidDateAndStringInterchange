@@ -6,7 +6,7 @@ How to use
 =================
 Drag `DavidStringAndDate` folder to your project.The `import "NSDate+StringFromDate.h"` and ` o,poart "NSString+DateFromString.h"`<br>
 ```oc
-//时间转字符串
+    //时间转字符串
     NSDate *nowDate  =[NSDate date];
     NSString *nowString = [nowDate stringFromDateWithFormat:@"yyyy-MM-dd hh:mm"];
     NSLog(@"stringFromDateWithFormat -- %@",nowString);
