@@ -4,7 +4,7 @@ DavidDateAndStringInterchange is a tool helping you interchange string to date o
 
 How to use
 =================
-Drag `DavidStringAndDate` folder to your project.The `import #NSDate+StringFromDate.h#` and `NSString+DateFromString.h`<br>
+Drag `DavidStringAndDate` folder to your project.The `import "NSDate+StringFromDate.h"` and ` o,poart "NSString+DateFromString.h"`<br>
 ```oc
 //时间转字符串
     NSDate *nowDate  =[NSDate date];
